@@ -1,9 +1,10 @@
-import ClassForm from ClassForm
+import ClassForm from "./ClassForm";
+
 
 function App() {
   return (
    <>
-   <ClassForm />
+   <ClassForm/>
    </>
   );
 }
