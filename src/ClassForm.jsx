@@ -24,7 +24,6 @@ const FunctionForm = (props) => {
   return (
     <div>
       <div className="form">
-        <h2>Form using Function Component</h2>
 
         <label htmlFor="name" className="label">
           Name
@@ -35,7 +34,6 @@ const FunctionForm = (props) => {
           name="name"
           id="name"
           value={form.name}
-          placeholder="Name"
           onChange={handleChange}
         />
         <br />
@@ -49,7 +47,6 @@ const FunctionForm = (props) => {
           name="email"
           id="Email"
           value={form.email}
-          placeholder="Example@gmail.com"
           onChange={handleChange}
         />
         <br />
@@ -63,7 +60,6 @@ const FunctionForm = (props) => {
           name="password"
           id="password"
           value={form.password}
-          placeholder="Password"
           onChange={handleChange}
         />
         <br />
